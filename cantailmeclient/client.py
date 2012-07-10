@@ -31,7 +31,9 @@ def main():
     parser.add_argument('-r', '--remote', type=str, default='cantail.me', help='TailMe server')
     arg_result = parser.parse_args(sys.argv[1:])
     proxy = ServerProxy(arg_result.remote)
-    hash = proxy.send('create_session')
+    data = proxy.send('create_session')
+    hash = data['hash']
+    secret = data['secret']
     if arg_result.silent:
         print 'Tail session page: http://%s/tail/%s/' % (arg_result.remote, hash)
     else:

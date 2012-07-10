@@ -1,10 +1,10 @@
 Metadata-Version: 1.0
 Name: cantailme-client
-Version: 0.0dev
-Summary: UNKNOWN
-Home-page: UNKNOWN
-Author: UNKNOWN
-Author-email: UNKNOWN
-License: UNKNOWN
+Version: 0.1dev
+Summary: Client-sender for cantail.me
+Home-page: http://cantail.me/
+Author: Vladimir Iakovlev
+Author-email: nvbn.rm@gmail.com
+License: GPLv2+
 Description: UNKNOWN
 Platform: UNKNOWN
