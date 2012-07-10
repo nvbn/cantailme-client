@@ -1,0 +1,3 @@
+[console_scripts]
+tailme = cantailmeclient.client:main
+

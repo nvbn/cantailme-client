@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+cantailme_client.egg-info/PKG-INFO
+cantailme_client.egg-info/SOURCES.txt
+cantailme_client.egg-info/dependency_links.txt
+cantailme_client.egg-info/entry_points.txt
+cantailme_client.egg-info/not-zip-safe
+cantailme_client.egg-info/top_level.txt
+cantailmeclient/__init__.py
+cantailmeclient/client.py
