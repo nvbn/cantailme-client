@@ -4,7 +4,7 @@ import json
 import httplib
 import os
 import argparse
-
+import webbrowser
 
 class ServerProxy(object):
     def __init__(self, host):
@@ -37,7 +37,7 @@ def main():
     if arg_result.silent:
         print 'Tail session page: http://%s/tail/%s/' % (arg_result.remote, hash)
     else:
-        os.system('x-www-browser http://%s/tail/%s/' % (arg_result.remote, hash))
+        webbrowser.open('http://%s/tail/%s/' % (arg_result.remote, hash))
     to_send = []
     while True:
         line = sys.stdin.readline()
